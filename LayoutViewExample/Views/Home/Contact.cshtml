@@ -1,0 +1,13 @@
+﻿@{
+    //Layout = "~/Views/Shared/_Layout.cshtml"; -ne treba zato sto smo ubacili u _ViewStart
+    ViewData["Title"] = "Contact";
+}
+
+<h1>Contact</h1>
+<p>Contact details here</p>
+
+@*bice renderovano samo u ovom Viewu, kad se ubaci u _Layout*@
+@section footer_section
+{
+    <p>Contact support: 065/330-123</p>
+}
